@@ -6,7 +6,7 @@ get "/newteam" do
   erb :newteam
 end
 
-post "/newteam" do
+POST "/newteam" do
   @name = params[:name]
   @coach = params[:coach]
   @pg = params[:pg]
