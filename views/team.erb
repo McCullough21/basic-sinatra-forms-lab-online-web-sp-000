@@ -7,12 +7,13 @@
  </head>
  <body>
 
-    <% @team.each do |k, v| %>
-    <!-- <%if "#{k}" == "Team Name:"%> -->
-    <h1><%= k v %></h1>
-    <% end %>
-    <!-- <% end %> -->
-  </form>
+   <p> Team Name: <%= @team_name %></p>
+   <p> Coach: <%= @coach %></p>
+   <p> Point Guard: <%= @pg %></p>
+   <p> Shooting Guard: <%= @sg %></p>
+   <p> Small Forward: <%= @sf %></p>
+   <p> Power Forward: <%= @pf %></p>
+   <p> Center: <%= @c %></p>
 
  </body>
 </html>
