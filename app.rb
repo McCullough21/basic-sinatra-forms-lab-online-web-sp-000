@@ -7,7 +7,7 @@ get "/newteam" do
 end
 
 post "/newteam" do
-  
+
 end
 
 
