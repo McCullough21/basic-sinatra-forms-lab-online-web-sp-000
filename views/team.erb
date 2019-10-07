@@ -6,10 +6,10 @@
   <title>Basketball Team</title>
  </head>
  <body>
-   <form method="POST">
+   
     <% @team.each do |k, v| %>
     <!-- <%if "#{k}" == "Team Name:"%> -->
-    <h1><%="#{k} #{v}"%></h1>
+    <h1><%= "#{k} #{v}" %></h1>
     <% end %>
     <!-- <% end %> -->
   </form>
