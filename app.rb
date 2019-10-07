@@ -2,11 +2,13 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
 
-get "/" do
-
+get "/newteam" do
+  
 end
 
 post "/newteam" do
   
 end
+
+
 end
