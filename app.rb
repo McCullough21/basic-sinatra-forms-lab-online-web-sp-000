@@ -15,7 +15,6 @@ post "/newteam" do
   @pf = params[:pf]
   @c = params[:c]
 
-
   erb :team
 end
 
