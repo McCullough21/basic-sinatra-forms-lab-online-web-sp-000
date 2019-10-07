@@ -1,4 +1,4 @@
-require 'pry'
+
 <!DOCTYPE html>
 <html>
  <head>
@@ -8,8 +8,7 @@ require 'pry'
  <body>
 
     <% @team.each do |k, v| %>
-    <%if k.value == "Team Name:"%>
-    binding.pry
+    <%if "#{k}" == "Team Name:"%>
     <h1><%=k v%></h1>
     <% end %>
 
