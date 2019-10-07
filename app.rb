@@ -7,8 +7,8 @@ get "/newteam" do
 end
 
 post "/newteam" do
-  @team = params.to_s
-  "#{@team}"
+  @team = params
+  
 
 
   erb :team
