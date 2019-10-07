@@ -11,7 +11,7 @@ post "/newteam" do
   "#{@team}"
 
 
-  erb :newteam
+  erb :team
 end
 
 
